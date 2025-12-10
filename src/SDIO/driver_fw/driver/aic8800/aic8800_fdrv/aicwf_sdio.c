@@ -747,7 +747,7 @@ static int aicwf_sdio_chipmatch(struct aic_sdio_dev *sdio_dev, u16_l vid, u16_l 
 		// sdio_dev->chipid = PRODUCT_ID_AIC8800D80;
 		// AICWFDBG(LOGINFO, "%s USE AIC8800D80\r\n", __func__);
 		sdio_dev->chipid = PRODUCT_ID_AIC8800DC;
-		AICWFDBG(LOGINFO, "%s USE AIC8800DC\r\n", __func__);
+		AICWFDBG(LOGINFO, "%s aicwf force USE AIC8800DC\r\n", __func__);
 		return 0;
 	}else if(vid == SDIO_VENDOR_ID_AIC8800D80X2 && did == SDIO_DEVICE_ID_AIC8800D80X2){
 		sdio_dev->chipid = PRODUCT_ID_AIC8800D80X2;
