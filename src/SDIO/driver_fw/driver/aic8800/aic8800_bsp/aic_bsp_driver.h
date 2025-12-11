@@ -526,7 +526,7 @@ enum chip_rev {
 
 
 #define FEATURE_SDIO_CLOCK          50000000 // 0: default, other: target clock rate
-#define FEATURE_SDIO_CLOCK_V3       40000000 // 0: default, other: target clock rate
+#define FEATURE_SDIO_CLOCK_V3       35000000 // 0: default, other: target clock rate
 #define FEATURE_SDIO_PHASE          2        // 0: default, 2: 180°
 
 struct aicbt_patch_table {
