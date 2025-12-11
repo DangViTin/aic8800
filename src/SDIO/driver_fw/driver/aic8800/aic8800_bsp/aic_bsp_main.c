@@ -16,7 +16,7 @@
 #define DRV_VERS_MOD          "1.0"
 
 // int aicwf_dbg_level_bsp = LOGERROR|LOGINFO|LOGDEBUG|LOGTRACE;
-int aicwf_dbg_level_bsp = LOGERROR;
+int aicwf_dbg_level_bsp = LOGERROR|LOGINFO;
 
 struct semaphore aicbsp_probe_semaphore;
 
